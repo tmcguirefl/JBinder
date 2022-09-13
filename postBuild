@@ -1,0 +1,4 @@
+#!/bin/bash
+# JKernel postBuild file to setup a JKernel on Binder
+
+./getjlibs.sh
