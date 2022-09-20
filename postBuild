@@ -9,5 +9,5 @@ export J_BIN_FOLDER="${HOME}/J903/bin"
 # get J libraries
 ./getjlibs.sh
 git clone https://github.com/martin-saurer/JKernel
-cat
+echo ${HOME}
 python ./setup.py install
