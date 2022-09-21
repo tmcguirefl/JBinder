@@ -4,10 +4,11 @@
 wget http://www.jsoftware.com/download/j903/install/j903_linux64.tar.gz 
 tar -xf j903_linux64.tar.gz 
 rm -rf j903_linux64.tar.gz
-export J_INSTALLATION_FOLDER="${HOME}/J903"
-export J_BIN_FOLDER="${HOME}/J903/bin"
+# export J_INSTALLATION_FOLDER="${HOME}/J903"
+# export J_BIN_FOLDER="${HOME}/J903/bin"
+
 # get J libraries
 ./JBinder/getjlibs.sh
 git clone https://github.com/martin-saurer/JKernel
-echo ${HOME}
+# echo ${HOME}
 python ./JKernel/setup.py install
