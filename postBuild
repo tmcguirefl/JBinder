@@ -8,8 +8,7 @@ rm -rf j903_linux64.tar.gz
 # export J_BIN_FOLDER="${HOME}/J903/bin"
 
 # get J libraries
-chmod +x getjlibs.sh
-./getjlibs.sh
+$J_BIN_FOLDER/jconsole getjlibs.sh
 git clone https://github.com/martin-saurer/jkernel
 # echo ${HOME}
 python ${HOME}/jkernel/setup.py install
