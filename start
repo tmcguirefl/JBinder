@@ -1,0 +1,4 @@
+#!/bin/bash
+export J_INSTALLATION_FOLDER="${HOME}/J903"
+export J_BIN_FOLDER="${HOME}/J903/bin"
+exec "$@"
