@@ -1,6 +1,7 @@
 #!/bin/bash
 # Jupyter specific additions
-jupyter serverextension enable --py nbgitpuller --sys-prefix
+# the following commented line may or may not be needed
+# jupyter serverextension enable --py nbgitpuller --sys-prefix
 # JKernel postBuild file to setup a JKernel on Binder
 # get a J runtime
 wget http://www.jsoftware.com/download/j903/install/j903_linux64.tar.gz 
